@@ -1,7 +1,8 @@
 
 <a href=
-<?php echo '"'.'http://'.$_SERVER["HTTP_HOST"].'/ilya_main'.'"'?></a>
+<?php echo '"'.'http://'.$_SERVER["HTTP_HOST"].'/ilya_main'.'"'?>>
 <p style="float: right" id="glav">На главную</p>
+</a>
 <form action=
 <?php echo '"'.'http://'.$_SERVER["HTTP_HOST"].'/dolgi/formUpdate'.'"'?>
 name="dolgForm" method="POST">
