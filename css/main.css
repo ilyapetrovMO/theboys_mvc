@@ -1,0 +1,135 @@
+ /* The sidebar menu */
+body{
+    background-color: rgb(65, 65, 65);
+    margin: 20%;
+    margin-top: 2%;
+}
+
+ .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  form select{
+    background-color: #818181;
+    color: #111;
+    border: none;
+  }
+  input[type=radio]{
+    background-color: #818181;
+  }
+  input[type=submit]{
+    background-color: #818181;
+    border:none;color:black;
+  }
+  #glav{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    margin: 0;
+  }
+  .form{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  form{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .dolgi a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  img {
+    max-width: 200px;
+    padding-top: 20px;
+    float: right;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    color: rgb(207, 191, 191);
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  .main p{
+      font-size: 14pt;
+  }
+  
+  blockquote {
+    background: #f9f9f90a;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  .container{
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+    .nDolg{
+        color: #ccc;
+        line-height: 0;
+        float: left;
+        font-size: 20vw;
+        flex-shrink: 1;
+    }
+    .lDolg{
+        color: #ccc;
+        margin-bottom: 0%;
+        flex-shrink: 1;
+        line-height: 100%;
+        float: right;
+        font-size: 4vw;
+    }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+  @media screen and (max-width: 1200px) {
+    body{margin: 0%;}
+  } 
